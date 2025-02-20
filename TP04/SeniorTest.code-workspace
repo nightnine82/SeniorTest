@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../SeniorTest"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Algo_Program/c++"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

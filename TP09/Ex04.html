@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex w-50vw h-50vh bg-white justify-center items-center hover:bg-black">
+        <div class="flex items-center justify-center bg-gray-200 border-4 border-black h-[800px] w-[550px] rounded-t-full rounded-b-full">
+            <div class="flex flex-col items-center justify-center gap-2 bg-green-200 h-[780px] w-[530px] rounded-t-full rounded-b-full">
+                <div class="flex bg-green-200 h-[50px] w-[220px] items-end justify-center rounded-none">
+                    <h1 class="text-[79px] font-bold text-blue-600 dark:text-sky-400 bg-black hover:bg-white rounded-tl-full rounded-br-full ">Counter</h1>
+                </div>
+                <div class="flex items-center justify-center bg-green-200 h-[200px] w-[220px] rounded-t-full">
+                    <h1 id="num" class="text-[220px] font-bold text-green-700" id="Num">0</h1>
+                </div>
+                <div class="flex flex-row bg-green-200 h-[50px] w-[500px] gap-3">
+                    
+                    <button class="bg-green-100 w-[250px] h-[50px] text-black font-lg text-[20px] hover:bg-red-500  border-2 border-black border-solid rounded-b-full rounded-r-none" id="dec">DECREASE</button>
+                    <button class="bg-green-100 w-[250px] h-[50px] text-black font-lg text-[20px] hover:bg-blue-500 border-2 border-black border-dashed rounded-none" id="set">RESET</button>
+                    <button class="bg-green-100 w-[250px] h-[50px] text-black font-lg text-[20px] hover:bg-pink-400 border-2 border-black border-dotted rounded-l-none rounded-b-full" id="inc">INCREASE</button>
+                    <script src="Ex04.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
