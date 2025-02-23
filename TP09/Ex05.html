@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class=" flex w-full h-[100vh] bg-gray-400 justify-center items-center">
+        <div class="flex flex-col w-[450px] h-[690px] bg-gray-500 border-black border-4 justify-center items-center rounded-2xl ">
+            <div class="flex bg-white h-[50px] w-[420px] items-center p-4">                                                     <!--//container0-->
+                <p class="text-[#2336FB] font-serif text-xl" id="title">Random Color Generator</p>
+            </div>
+            <div class="bg-[#2336FB] h-[200px] w-[420px] justify-center items-center flex flex-col" id="container1">            <!--//container1-->
+                <div class="flex bg-[#000000] h-[90px] w-[410px] justify-center items-center flex-col">                         <!--//container1_1-->
+                    <div>
+                        <p class="text-white text-3xl font-bold">Background Color :</p>
+                    </div>
+                    <div>
+                        <p class="text-[#2336FB] text-3xl font-bold" id="code">#2336FB</p>
+                    </div>
+                </div>   
+                <div class="bg-[#2336FB] h-[90px] w-[410px] justify-center items-end flex flew-row gap-2" id="container1_2">                      <!--//container1_2-->
+                    <div class="flex bg-black w-[100px] h[50px] justify-center items-center border-2 border-black rounded p-2"> 
+                        <button class="text-white font-bold text-sm " onclick="color.generate()">GENERATE</button>
+                    </div>
+                    <div class="flex bg-[#2336FB] w-[80px] h[50px] justify-center items-center border-2 border-black rounded p-2" id="reset">
+                        <button class="text-black font-bold text-sm" onclick="color.reset()">RESET</button>
+                    </div>
+                    <script src="Ex05.js"></script>
+                </div>   
+                
+            </div>
+            <div class="flex flex-col bg-white h-[200px] w-[420px] items-start p-4">                                             <!--//container2-->
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#2336FB</p>
+                    <div class="w-[15px] h-[15px] bg-[#2336FB]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#497068</p>
+                    <div class="w-[15px] h-[15px] bg-[#497068]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#599F96</p>
+                    <div class="w-[15px] h-[15px] bg-[#599F96]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#1544C7</p>
+                    <div class="w-[15px] h-[15px] bg-[#1544C7]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#3542AF</p>
+                    <div class="w-[15px] h-[15px] bg-[#3542AF]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#15FCA9</p>
+                    <div class="w-[15px] h-[15px] bg-[#15FCA9]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#10EF45</p>
+                    <div class="w-[15px] h-[15px] bg-[#10EF45]"></div>
+                </div>
+                <div class="flex flex-row bg-white border-1 border-black h-[20px] w-[100px] p-2 justify-center items-center">   
+                    <p>#722031</p>
+                    <div class="w-[15px] h-[15px] bg-[#722031]"></div>
+                </div>
+            </div>
+            <div class="bg-[#2336FB] h-[170px] w-[420px] " id="container3"></div>                                                                <!--//container3-->
+        </div>
+    </div>
+</body>
+</html
